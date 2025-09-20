@@ -1,0 +1,28 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "d",
+      "path": ".",
+      "scope": "source.d",
+      "file-types": [
+        "d"
+      ],
+      "injection-regex": "^d$",
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "links": {
+      "repository": "https://github.com/shmcgough/tree-sitter-d"
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "shmcgough",
+        "email": "shmcgough@gmail.com"
+      }
+    ]
+  }
+}
